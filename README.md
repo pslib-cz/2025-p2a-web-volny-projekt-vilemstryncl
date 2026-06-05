@@ -37,9 +37,9 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 |---|---|
 | GitHub Pages (live) | [`https://pslib-cz.github.io/2025-p2a-web-volny-projekt-vilemstryncl/`](#) |
 
-| Grafický manuál (Figma / Canva) | [`https://www.figma.com/design/26zYi9PdljgNBwsyuRPRP9/VIltren?node-id=0-1&t=0uRGf4XfACJUgDxe-1`](#) |
+| Grafický manuál (Figma / Canva) | [`https://www.figma.com/design/kAQ6tXred9LrKO9aMzFNce/%C5%A0trynclVil%C3%A9m?node-id=0-1&p=f&t=7v02QQJsFaqB9Glb-0`](#) |
 
-| Grafický návrh webu (Figma) | [`https://www.figma.com/design/26zYi9PdljgNBwsyuRPRP9/VIltren?node-id=0-1&t=0uRGf4XfACJUgDxe-1`](#) |
+| Grafický návrh webu (Figma) | [`https://www.figma.com/design/kAQ6tXred9LrKO9aMzFNce/%C5%A0trynclVil%C3%A9m?node-id=0-1&p=f&t=7v02QQJsFaqB9Glb-0`](#) |
 
 | Fotografie / média | [`Doplň odkaz`](#) |
 
@@ -47,6 +47,6 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 
 ## Poznámky
 
-_Prostor pro vlastní poznámky, zpětnou vazbu, TODO apod._
+_Chci takto omluvit tomu co tento projekt opravuje za nepoužití JSLightGallery, za boha jsem to nemohl sprovoznit do funkčního a aspoň trochu přijatelně vypadajícího stavu. _
 
 `Volný prostor pro poznámky.`
