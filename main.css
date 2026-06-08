@@ -28,21 +28,70 @@ header {
   width: auto;
   height: 100px;
 }
+/* Hamburger*/
 
-.HamburgerMenu {
+.menu-toggle{
+  display: none;
+}
+.hamburger{
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  justify-content: space-around;
+  width: 30px;
+  height: 25px;
+  cursor: pointer;
   margin: 1em;
-
+  z-index: 1234;
+}
+.hamburger span{
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: var(--secondary-color);
+  border-radius: 2px;
+  transition: 0.3s ease;
+}
+.nav-menu{
+  max-height: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: var(--primary-color);
+  border-radius: 8px;
+  margin-top: 0.5em;
+  transition: max-height 0.5s ease, padding 0.3s ease;
+  width: 180px;
+  position: absolute;
+  right: 1em;
+  top: 60px;
 }
 
-.HamburgerMenu span {
-  width: 25px;
-  height: 4px;
-  background: white;
-  border-radius: 5px;
+.menu-toggle:checked ~ .nav-menu {
+  max-height: 500px; 
+  padding: 1em 0;
 }
+
+/* animace do X */
+.menu-toggle:checked + .hamburger span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.menu-toggle:checked + .hamburger span:nth-child(2) {
+  opacity: 0;
+}
+.menu-toggle:checked + .hamburger span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+/* odkazy*/
+.nav-menu a {
+  padding: 0.5em 1em;
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.nav-menu a:hover {
+  color: var(--button-color);
+}
+
 
 .moto {
   display: grid;
@@ -515,3 +564,4 @@ footer {
 }
 
 }
+
