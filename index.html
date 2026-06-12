@@ -7,17 +7,31 @@
     <title>Viltrain</title>
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.8.3/css/lightgallery-bundle.min.css">
+    <link rel="icon" type="image/png" href="./favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg" />
+    <link rel="shortcut icon" href="./favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Viltrain" />
+    <link rel="manifest" href="./favicon/web-app-manifest-192x192.png" />
 </head>
 
 <body>
     <header>
         <img src="./Photos/LOGO_transparent.png" alt="Viltrain" class="logo">
-        <a href="./Product.html" class="HamburgerMenu">
+    
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    
+        <div for="menu-toggle" class="hamburger">
             <span></span>
             <span></span>
             <span></span>
-        </a>
-
+        </div>
+    
+        <nav class="nav-menu">
+            <a href="./index.html">Home</a>
+            <a href="./Product.html">Products</a>
+            <a href="./Contacts.html">Contact</a>
+        </nav>
     </header>
 
 
@@ -57,7 +71,7 @@
             <div class="card">
                 <span class="tag creatine">Creatine</span>
                 <img src="./Photos/Creatine.jpg" alt="Creatine">
-                
+
                 <h3>Creatine Monohydrate 250/500g</h3>
                 <p>8 Flavors, Zero harmful sweeteners, maximum effectivness</p>
 
@@ -143,15 +157,15 @@
             <a href="./Contacts.html">Refunds</a>
         </div>
         <div class="footer_column">
-        <a href="./Contacts.html">Contacts</a>
-        <a href="./Contacts.html">Privacy</a>
-        <a href="./Contacts.html">Terms</a>
+            <a href="./Contacts.html">Contacts</a>
+            <a href="./Contacts.html">Privacy</a>
+            <a href="./Contacts.html">Terms</a>
         </div>
     </footer>
-<script>
-lightGallery(document.getElementById('lightgallery'));
-</script>
-<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.8.3/lightgallery.min.js"></script>
+    <script>
+        lightGallery(document.getElementById('lightgallery'));
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.8.3/lightgallery.min.js"></script>
 </body>
 
 </html>
